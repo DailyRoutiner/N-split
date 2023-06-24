@@ -24,8 +24,10 @@ public class MeetingController {
 
     @Resource(name="meetingService")
     private MeetingService meetingService;
+
     @Resource(name="payService")
     private PayService payService;
+
     @Resource(name="memService")
     private MemberService memService;
 
@@ -111,6 +113,4 @@ public class MeetingController {
         mv.setViewName("meeting");
         return mv;
     }
-}
-
 }

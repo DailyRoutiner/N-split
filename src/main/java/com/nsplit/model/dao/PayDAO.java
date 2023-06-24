@@ -1,9 +1,6 @@
 package com.nsplit.model.dao;
 
-import java.util.List;
-
-import model.domain.PayDTO;
-import model.domain.WebPushDTO;
+/*
 
 public interface PayDAO {
 	List<PayDTO> paySelect();
@@ -13,3 +10,4 @@ public interface PayDAO {
 	List<WebPushDTO> ResAfterSelect(int ckNo);
 	int insertPayment(PayDTO pd);
 }
+*/

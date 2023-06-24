@@ -1,15 +1,7 @@
 package com.nsplit.model.dao;
 
 
-import java.util.List;
-
-import model.domain.MeetingDTO;
-import model.domain.PayDTO;
-
-import org.apache.ibatis.session.SqlSession;
-import org.springframework.stereotype.Repository;
-
-import util.DBUtil;
+/*
 
 @Repository("meetingDAO")
 public class MeetingDAOImpl implements MeetingDAO {
@@ -59,3 +51,4 @@ public class MeetingDAOImpl implements MeetingDAO {
 		return spendList;
 	}
 }
+*/

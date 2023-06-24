@@ -1,8 +1,6 @@
 package com.nsplit.model.dao;
 
-import java.util.List;
-
-import model.domain.MemberDTO;
+/*
 
 public interface MemberDAO {
 	List<MemberDTO> memberSelect();
@@ -17,3 +15,4 @@ public interface MemberDAO {
 	int updatePicture(MemberDTO dto);
 	//지윤이가 만든 멤버
 }
+*/

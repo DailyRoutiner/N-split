@@ -1,14 +1,6 @@
 package com.nsplit.model.dao;
 
-import java.util.List;
-
-import model.domain.MemberDTO;
-
-import org.apache.ibatis.session.SqlSession;
-import org.springframework.stereotype.Repository;
-
-import util.DBUtil;
-
+/*
 @Repository("memDAO")
 public class MemberDAOImpl implements MemberDAO {
 
@@ -132,4 +124,4 @@ public class MemberDAOImpl implements MemberDAO {
 	}
 	//지윤이가 만든 곳
 
-}
+}*/

@@ -1,14 +1,6 @@
 package com.nsplit.model.dao;
 
-import java.util.List;
-
-import model.domain.PayDTO;
-import model.domain.WebPushDTO;
-
-import org.apache.ibatis.session.SqlSession;
-import org.springframework.stereotype.Repository;
-
-import util.DBUtil;
+/*
 
 
 @Repository("payDao")
@@ -92,11 +84,13 @@ public class PayDAOImpl implements PayDAO {
 		int result = 0;
 		try {
 			result = session.insert("payment.insertPayment",pd);	
-			/*flag = result > 0 ? true : false;*/
+			*/
+/*flag = result > 0 ? true : false;*//*
+
 		} finally {
 			DBUtil.closeSqlSession(flag, session);
 		}
 		return result;
 	}
 	
-}
+}*/

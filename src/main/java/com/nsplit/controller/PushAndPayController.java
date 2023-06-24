@@ -4,7 +4,6 @@ import com.nsplit.model.domain.MemberDTO;
 import com.nsplit.model.domain.PayDTO;
 import com.nsplit.model.domain.PushDTO;
 import com.nsplit.model.domain.WebPushDTO;
-import com.nsplit.service.MeetingService;
 import com.nsplit.service.MemberService;
 import com.nsplit.service.PayService;
 import com.nsplit.service.PushService;
@@ -21,12 +20,13 @@ import java.util.List;
 
 @Controller
 public class PushAndPayController {
+
     @Resource(name="memService")
     private MemberService memService;
-    @Resource(name="meetingService")
-    private MeetingService meetingService;
+
     @Resource(name="pushService")
     private PushService pushService;
+
     @Resource(name="payService")
     private PayService payService;
 

@@ -1,10 +1,6 @@
 package com.nsplit.model.dao;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import model.domain.PushDTO;
-import model.domain.WebPushDTO;
+/*
 
 public interface PushDAO {
 	int pushInsert(PushDTO vo);
@@ -13,3 +9,4 @@ public interface PushDAO {
 	ArrayList<WebPushDTO> ResBeforeSelect(int ckno);
 	int pushResInsert(PushDTO vo);
 }
+*/

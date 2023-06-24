@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
+/*
 
 @Repository("pushDao")
 public class PushDAOImpl implements PushDAO {
@@ -78,3 +79,4 @@ public class PushDAOImpl implements PushDAO {
 		return result;
 	}
 }
+*/
