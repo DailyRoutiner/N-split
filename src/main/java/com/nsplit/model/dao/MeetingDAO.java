@@ -1,4 +1,14 @@
 package com.nsplit.model.dao;
 
-public class MeetingDAO {
+import java.util.List;
+
+import model.domain.MeetingDTO;
+import model.domain.PayDTO;
+
+public interface MeetingDAO {
+	int insertPay(PayDTO payDTO);
+
+	int insertMeeting(MeetingDTO meetingDTO);
+
+	List<MeetingDTO> meetingList(int memno);
 }
